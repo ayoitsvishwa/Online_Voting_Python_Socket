@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("download.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .voter-details {
+    margin-top: 20px;
+  }
+  
+  .voter-details label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .voter-details input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .candidate-selection {
+    margin-top: 20px;
+  }
+  
+  .candidate-button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  #result-label {
+    margin-top: 20px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  #end-voting-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #footer-label {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
